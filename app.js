@@ -10,6 +10,10 @@ var users = require('./routes/users');
 
 var app = express();
 
+// TODO: 배포전 삭제 임시변수
+***REMOVED***
+***REMOVED***
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
